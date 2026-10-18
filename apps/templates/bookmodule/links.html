@@ -1,0 +1,11 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+
+{% block title %}Links{% endblock title %}
+
+{% block content %}
+<a href="https://www.qu.edu.sa/" target="_blank" class="link" id="link1">Go to QU(open in a new tab)</a>
+<a href="https://www.qu.edu.sa/" class="link" id="link2">Go to QU(open in a same page/tab)</a>
+    
+<a href="https://www.qu.edu.sa/" target="_parent" class="link" id="link3">Go to QU(open in a same page/tab)</a>
+{% endblock content %}
