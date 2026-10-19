@@ -9,6 +9,7 @@ urlpatterns = [
     path('html5/text/formatting', views.text_formatting),
     path('html5/listing',views.listing),
     path('html5/tables',views.tables),
+    path('search', views.search, name="books.search"),
 #    path('index2/<int:val1>/', views.index2),
 #    path('<int:bookId>', views.viewbook)
 ]
